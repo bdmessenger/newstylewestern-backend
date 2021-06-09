@@ -2,7 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const createCheckoutSession = require('./api/checkout')
 
-if (proccess.env.NODE_ENV === 'development') {
+if (process.env.NODE_ENV === 'development') {
     require('dotenv').config({path: './.env'})
 }
 
