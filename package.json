@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "heroku-prebuild": "npm install --only=dev",
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
